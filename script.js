@@ -75,6 +75,8 @@ button.onclick = function () {
             }
         })
 
+        array.push({ id: 5, name: "Yesh", age: "31", profession: "Developer" })
+
         cardsDiv.style.display = 'none'
         if (value == 'Developer') {
             let developers = array.filter(e => e.profession == "Developer")
